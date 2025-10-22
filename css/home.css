@@ -10,7 +10,7 @@
     background-color: white;
 }
 .home{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .title-date h2{
     font-weight: 450;
@@ -103,7 +103,7 @@
     justify-content: space-between;
     gap: 2rem;
     align-items: flex-start; 
-    margin-top: 5rem;
+    margin-top:2rem;
 }
 
 .picks-title-list{
