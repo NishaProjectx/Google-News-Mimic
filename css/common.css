@@ -1,5 +1,6 @@
 :root{
     --light-gray:#4b4a4a;
+    --light-blue-white :#f6f8fc;
 }
 html{
     box-sizing: border-box;
@@ -35,10 +36,11 @@ html{
     width: 100%;
 } */
 nav {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     /* color: var(--light-gray); */
     background-color: white;
     border-bottom:1px solid rgba(241, 243, 244);
+    
 }
 .icon-settings-other img{
     max-height: 20px;
@@ -80,4 +82,18 @@ nav {
     max-width: 300px;
     margin-left: 20px;
 
+}
+body{
+    background-color: var(--light-blue-white);
+}
+ 
+.home-Page{
+    position: sticky;
+    top: 0;
+    align-self: self-start;
+}
+nav{
+     position: sticky;
+    top: 0;
+    align-self: self-start;
 }
